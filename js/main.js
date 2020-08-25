@@ -9,6 +9,10 @@ const link3 = document.querySelector('.link3');
 const link4 = document.querySelector('.link4');
 const link5 = document.querySelector('.link5');
 
+$(function () {
+  $('.wipe').addClass('in');
+});
+
 btn.addEventListener('click', function () {
   $('.welcome').toggleClass('close');
   $('.about').toggleClass('close');
