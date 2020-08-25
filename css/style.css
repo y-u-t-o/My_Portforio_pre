@@ -179,6 +179,18 @@
   font-weight: 700;
 }
 
+.container .welcome .wipe {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: 2s ease-out;
+  transition: 2s ease-out;
+}
+
+.container .welcome .in {
+  width: 100%;
+}
+
 .container .welcome .scroll {
   display: block;
   width: 100%;
